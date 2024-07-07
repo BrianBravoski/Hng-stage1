@@ -20,7 +20,7 @@ read_text_file(){
     local filename="$1"
     while IFS=';' read -r user groups; do
         users+=("$(echo "$user" | xargs)")
-        group_list+=("$(echo "$groups" | tr -d '[:space:]')")
+        group_list+=("$(echo "$groups" | xargs)")
     done < "$filename"
 }
 

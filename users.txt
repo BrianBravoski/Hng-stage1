@@ -1,2 +1,2 @@
-light; first, sudo
+light; first,sudo
 brian; kemboi
