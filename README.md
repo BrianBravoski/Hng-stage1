@@ -10,3 +10,7 @@ This is a Linux bash script that does the following:
 6. create a log file of all the things that the script performs.
     - /var/secure/user_passwords.csv
 7. 
+
+
+Addition of the link to the article:
+https://dev.to/brianbravoski/linux-user-administration-using-bash-scripts-h9h
